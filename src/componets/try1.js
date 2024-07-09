@@ -1,4 +1,4 @@
-export default function Members() {
+export default function Try1() {
     return(
         <div id="tribe-container">
             <div id="tribe-header">
@@ -6,43 +6,43 @@ export default function Members() {
                 <a>See all</a>
             </div>
             <div id="tribe-body">
-                <a className="member">
+                <a className="tribe-member">
                     <img src="https://placehold.co/50x50"/>
                     <span>Delete</span>
                 </a>
-                <a className="member">
+                <a className="tribe-member">
                     <img src="https://placehold.co/50x50"/>
                     <span>Delete</span>
                 </a>
-                <a className="member">
+                <a className="tribe-member">
                     <img src="https://placehold.co/50x50"/>
                     <span>Delete</span>
                 </a>
-                <a className="member">
+                <a className="tribe-member">
                     <img src="https://placehold.co/50x50"/>
                     <span>Delete</span>
                 </a>
-                <a className="member">
+                <a className="tribe-member">
                     <img src="https://placehold.co/50x50"/>
                     <span>Delete</span>
                 </a>
-                <a className="member">
+                <a className="tribe-member">
                     <img src="https://placehold.co/50x50"/>
                     <span>Delete</span>
                 </a>
-                <a className="member">
+                <a className="tribe-member">
                     <img src="https://placehold.co/50x50"/>
                     <span>Delete</span>
                 </a>
-                <a className="member">
+                <a className="tribe-member">
                     <img src="https://placehold.co/50x50"/>
                     <span>Delete</span>
                 </a>
-                <a className="member">
+                <a className="tribe-member">
                     <img src="https://placehold.co/50x50"/>
                     <span>Delete</span>
                 </a>
-                <a className="member">
+                <a className="tribe-member">
                     <img src="https://placehold.co/50x50"/>
                     <span>Delete</span>
                 </a>

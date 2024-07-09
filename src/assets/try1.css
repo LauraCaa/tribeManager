@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -44,8 +43,8 @@ table {
 }
 
 html body{
+    font-family: sans-serif;
     height: 100%;
-    font-family: "Monserrat", sans-serif;
 }
 #main-container{
     display: flex;
@@ -55,54 +54,54 @@ html body{
     background-color: #122854;
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    width: 300px;
+    gap: 20px;
     padding: 20px 15px;
+    width: 300px;
 }
 #tribe-header{
-    color: white;
     display: flex;
     justify-content: space-between;
 }
+#tribe-header p{
+    color: #C2D1EF;
+}
 #tribe-header a{
+    color: #4D53A7;
     font-size: 14px;
-    color: #5D63B8;
-    padding-right: 10px;
+    margin-right: 10px;
 }
 #tribe-body{
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
-.member {
-    position: relative;
-    display: flex;
+#tribe-body .tribe-member{
     align-items: center;
-    width: 50px;
+    border-radius: 50px;
+    display: flex;
     height: 50px;
-    border-radius: 50%;
     overflow: hidden;
+    position: relative;
+    width: 50px;
 }
-.member:hover{
+#tribe-body .tribe-member:hover::after{
+    background-color: rgba(236, 53, 53, 0.5);
+    content: '';
     cursor: pointer;
-}
-.member:hover::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
     height: 100%;
-    background-color: rgba(255, 0, 0, 0.3); /* Rojo semitransparente */
-}
-.member span{
-    display: none;
     position: absolute;
-    left: 50%;
-    font-size: 11px;
-    transform: translateX(-50%);
-    text-transform: uppercase;
+    width: 100%;
 }
-.member:hover span {
+#tribe-body .tribe-member span{
+    display: none;
+    font-size: 10px;
+    left: 50%;
+    position: absolute;
+    text-transform: uppercase;
+    transform: translateX(-50%);
+}
+#tribe-body .tribe-member:hover span{
     display: block;
 }
+
+
